@@ -3966,4 +3966,20 @@ code {
     margin-bottom: 1rem;
 }
 
-.faculty:not(:last-child) {}
+.gsc-our-partners {
+    display: flex;
+}
+
+.gsc-our-partners .image {
+    width: 550px;
+    margin-right: 1rem;
+}
+
+.gsc-our-partners img {
+    max-width: 100%;
+    height: auto;
+}
+
+#pills-students .news-block-inner {
+    min-height: 350px;
+}
