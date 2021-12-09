@@ -3968,6 +3968,15 @@ code {
 
 .gsc-our-partners {
     display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width:820px) {
+
+    .widget.gsc-our-partners {
+        flex-wrap: nowrap;
+    }
 }
 
 .gsc-our-partners .image {
