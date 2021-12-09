@@ -323,54 +323,93 @@
     </header>
     <!-- Hero Section-->
     <section class="hero hero-page">
-        <div style="background: url(./assets/img/staff-banner.jpg)" class="hero-banner"> </div>
+        <div style="background: url(assets/img/jobs-banner.jpg)" class="hero-banner"> </div>
     </section>
     <section>
         <div class="container">
             <nav aria-label="breadcrumb" role="navigation">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="staff.html">Staff</a></li>
-                    <li aria-current="page" class="breadcrumb-item active">Joe Denver</li>
+                    <li class="breadcrumb-item"><a href="index.html">Acceuil</a></li>
+                    <li aria-current="page" class="breadcrumb-item active">faculté</li>
                 </ol>
             </nav>
             <div class="row">
-                <div class="col-md-8 col-lg-7 text-content">
-                    <h2>Joe Denver</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-xl-8 text-content">
+                    <h1 class="mb-4">Jobs en cours (Page en construction...)
+                        <div class="body-svg-load">
+                            <div class="container">
+                                <div class="dot dot-1"></div>
+                                <div class="dot dot-2"></div>
+                                <div class="dot dot-3"></div>
+                            </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                <defs>
+                                    <filter id="goo">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                        <feColorMatrix in="blur" mode="matrix"
+                                            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                    </h1>
+                    <h2 class="text-danger">Pas de Job en cours. Restez connecter pour continuer à informer Merci!.</h2>
+                    <p class="lead">This page's aim is to show you the most common HTML elements appearance on the
+                        website.
+                        For further reference please visit official <a href="http://getbootstrap.com/css/"
+                            class="external">Bootstrap website</a>.</p>
+                    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac
+                        turpis
+                        egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+                        libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat
+                        eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi,
+                        condimentum
+                        sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
+                        condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non
+                            enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+                    <h2>Header Level 2</h2>
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>Aliquam tincidunt mauris eu risus.</li>
+                    </ol>
                     <blockquote class="blockquote">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. </p>
-                        <div class="author">William Shakespeare</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis
+                            aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend,
+                            libero
+                            at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam.
+                            Vivamus
+                            pretium ornare est.</p>
                     </blockquote>
-                    <div class="d-flex flex-wrap align-items-center">
-                        <div class="mr-3"><strong>Meet Joe on</strong></div>
-                        <ul class="social-buttons list-inline mb-0">
-                            <li class="list-inline-item"><a href="#" class="twitter mb-0">
-                                    <div class="icon"> <i class="fa fa-twitter"></i></div>
-                                </a></li>
-                            <li class="list-inline-item"><a href="#" class="facebook mb-0">
-                                    <div class="icon"> <i class="fa fa-facebook"></i></div>
-                                </a></li>
-                            <li class="list-inline-item"><a href="#" class="google-plus mb-0">
-                                    <div class="icon"> <i class="fa fa-google-plus"></i></div>
-                                </a></li>
-                        </ul>
+                    <h3>Header Level 3</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>Aliquam tincidunt mauris eu risus.</li>
+                    </ul>
+                    <hr>
+                    <h4>Images</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="text-center"><img src="assets/img/teachers/teacher-1.jpg" alt=""
+                                    class="rounded-circle img-fluid"></p>
+                            <p class="text-center">circle</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center"><img src="assets/img/teachers/teacher-2.jpg" alt=""
+                                    class="img-thumbnail img-fluid"></p>
+                            <p class="text-center">thumbnail</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center"><img src="assets/img/teachers/teacher-5.jpg" alt=""
+                                    class="rounded img-fluid"></p>
+                            <p class="text-center">rounded </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-lg-5">
-                    <p><img src="./assets/img/teachers/teacher-1.jpg" alt="..." class="img-fluid rounded-circle"></p>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- footer-->
     <footer class="footer pb-0">
         <div class="container">
@@ -382,8 +421,8 @@
                         <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a><a
                                 href="#" target="_blank"><i class="fa fa-twitter"></i></a><a href="#" target="_blank"><i
                                     class="fa fa-instagram"></i></a><a href="#" target="_blank"><i
-                                    class="fa fa-youtube-play"></i></a><a href="#" target="_blank"><i
-                                    class="fa fa-vimeo"></i></a></li>
+                                    class="fa fa-youtube-play"></i></a>
+                        </li>
                     </ul>
                     <p>L'Université de Goma, est un établissement universitaire public. Elle est née de la
                         politique d'essaimage des établissements de l'enseignement supérieur et universitaire prônée par
@@ -408,30 +447,27 @@
                 <div class="col-lg-3 col-md-3">
                     <h4 class="text-thin">Navigation</h4>
                     <div class="d-flex flex-wrap">
+
                         <ul class="navigation list-unstyled">
-                            <li><a href="#">Home </a></li>
-                            <li><a href="#">About </a></li>
-                            <li><a href="#">Course</a></li>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Gallery</a></li>
-                        </ul>
-                        <ul class="navigation list-unstyled">
-                            <li><a href="#">Blog </a></li>
-                            <li><a href="#">Teachers </a></li>
-                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Acceuil </a></li>
+                            <li><a href="#">Connexion </a></li>
                             <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Instruction academique </a></li>
+                            <li><a href="#">Carrieres</a></li>
+                            <li><a href="#">Privacy</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 newsletter">
                     <h4 class="text-thin">Newsletter</h4>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus </p>
+                    <p>Pour etre informer des activité de l'université UNIGOM veuillez svp entrer votre adresse mail
+                    </p>
                     <form action="#" class="newsletter-form">
                         <div class="form-group">
-                            <input type="email" name="email" placeholder="Enter your email address."
+                            <input type="email" name="email" placeholder="Entrer votre adresse mail"
                                 class="form-control">
-                            <button type="submit">Subscribe</button>
+                            <button type="submit">S'enregistrer</button>
                         </div>
                     </form>
                 </div>
@@ -439,7 +475,7 @@
         </div>
         <div class="copyrights">
             <div class="container text-center">
-                <p>&copy; 2018 UNIGOM</p>
+                <p>&copy; 2021 UNIGOM</p>
             </div>
         </div>
     </footer>

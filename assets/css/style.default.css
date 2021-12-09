@@ -3983,3 +3983,12 @@ code {
 #pills-students .news-block-inner {
     min-height: 350px;
 }
+
+.btn-login {
+    transition: color 0.3s !important;
+}
+
+.btn-login:hover {
+    color: #fff !important;
+
+}

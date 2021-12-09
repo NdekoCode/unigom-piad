@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./assets/css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/signin.css" id="theme-stylesheet">
     <!-- Favicon-->
     <link rel="shortcut icon" href="./assets/img/favicon.ico">
     <!-- Tweaks for older IEs-->
@@ -321,56 +322,38 @@
             </div>
         </nav>
     </header>
-    <!-- Hero Section-->
-    <section class="hero hero-page">
-        <div style="background: url(./assets/img/staff-banner.jpg)" class="hero-banner"> </div>
-    </section>
-    <section>
-        <div class="container">
-            <nav aria-label="breadcrumb" role="navigation">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="staff.html">Staff</a></li>
-                    <li aria-current="page" class="breadcrumb-item active">Joe Denver</li>
-                </ol>
-            </nav>
-            <div class="row">
-                <div class="col-md-8 col-lg-7 text-content">
-                    <h2>Joe Denver</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. </p>
-                        <div class="author">William Shakespeare</div>
-                    </blockquote>
-                    <div class="d-flex flex-wrap align-items-center">
-                        <div class="mr-3"><strong>Meet Joe on</strong></div>
-                        <ul class="social-buttons list-inline mb-0">
-                            <li class="list-inline-item"><a href="#" class="twitter mb-0">
-                                    <div class="icon"> <i class="fa fa-twitter"></i></div>
-                                </a></li>
-                            <li class="list-inline-item"><a href="#" class="facebook mb-0">
-                                    <div class="icon"> <i class="fa fa-facebook"></i></div>
-                                </a></li>
-                            <li class="list-inline-item"><a href="#" class="google-plus mb-0">
-                                    <div class="icon"> <i class="fa fa-google-plus"></i></div>
-                                </a></li>
-                        </ul>
-                    </div>
+    <section class="text-center body">
+
+        <main class="form-signin">
+            <form action="staff.html">
+                <img class="mb-4 bannier-img" src="assets/img/log/logo.png" alt="" width="72" height="57">
+
+                <h1 class="h3 mb-3 fw-normal">connectez-vous SVP</h1>
+
+                <div class="form-floating mb-3">
+                    <label for="floatingInput">Adresse mail ou matricule</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                 </div>
-                <div class="col-md-4 col-lg-5">
-                    <p><img src="./assets/img/teachers/teacher-1.jpg" alt="..." class="img-fluid rounded-circle"></p>
+                <div class="form-floating mb-3">
+                    <label for="floatingPassword">Mot de passe</label>
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Mot de passe"
+                        required>
                 </div>
-            </div>
-        </div>
+
+                <div class="form-floating mb-3">
+                    Vous n'avez pas de compte, <a href="signin.html">créer-en un</a>
+                </div>
+
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me">Se souvenir de moi
+                    </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Connexion</button>
+            </form>
+        </main>
     </section>
+
     <!-- footer-->
     <footer class="footer pb-0">
         <div class="container">
@@ -408,30 +391,27 @@
                 <div class="col-lg-3 col-md-3">
                     <h4 class="text-thin">Navigation</h4>
                     <div class="d-flex flex-wrap">
+
                         <ul class="navigation list-unstyled">
-                            <li><a href="#">Home </a></li>
-                            <li><a href="#">About </a></li>
-                            <li><a href="#">Course</a></li>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Gallery</a></li>
-                        </ul>
-                        <ul class="navigation list-unstyled">
-                            <li><a href="#">Blog </a></li>
-                            <li><a href="#">Teachers </a></li>
-                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Acceuil </a></li>
+                            <li><a href="#">Connexion </a></li>
                             <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Instruction academique </a></li>
+                            <li><a href="#">Carrieres</a></li>
+                            <li><a href="#">Privacy</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 newsletter">
                     <h4 class="text-thin">Newsletter</h4>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus </p>
+                    <p>Pour etre informer des activité de l'université UNIGOM veuillez svp entrer votre adresse mail
+                    </p>
                     <form action="#" class="newsletter-form">
                         <div class="form-group">
-                            <input type="email" name="email" placeholder="Enter your email address."
+                            <input type="email" name="email" placeholder="Entrer votre adresse mail"
                                 class="form-control">
-                            <button type="submit">Subscribe</button>
+                            <button type="submit">S'enregistrer</button>
                         </div>
                     </form>
                 </div>
@@ -439,7 +419,7 @@
         </div>
         <div class="copyrights">
             <div class="container text-center">
-                <p>&copy; 2018 UNIGOM</p>
+                <p>&copy; 2021 UNIGOM</p>
             </div>
         </div>
     </footer>
@@ -471,6 +451,13 @@
         ga('create', 'UA-XXXXX-X');
         ga('send', 'pageview');
     </script>
+</body>
+
+</html>
+
+
+
+
 </body>
 
 </html>
